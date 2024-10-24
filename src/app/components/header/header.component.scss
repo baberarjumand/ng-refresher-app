@@ -1,0 +1,21 @@
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  .link {
+    text-decoration: none;
+    color: black;
+  }
+
+  .active-link {
+    text-decoration: underline;
+  }
+
+  .links-group {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+  }
+}
